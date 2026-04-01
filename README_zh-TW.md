@@ -105,7 +105,7 @@ downloads:
 
 - download_dir: 儲存所有下載的本本的資料夾位置。（絕對位置跟相對位置都可接受）
 - filetype: 本本下載後的檔案類型。目前支持`folder`和`cbz`。
-- Server: （自架）伺服器的名字。目前支持[`LANrargi`][lanraragi]和[`Kavita`][kavita]。只在`filetype`設為`cbz`時有效。
+- server: （自架）伺服器的名字。目前支持[`LANrargi`][lanraragi]和[`Kavita`][kavita]。只在`filetype`設為`cbz`時有效。
 - set-tags: 是否要在下載的本本資料夾上設定標籤。可以是`true`或是`false`。只在`filetype`設為`folder`時有效。
 - set-thumbnail: 是否要在下載的本本資料夾上設定縮圖。可以是`true`或是`false`。只在`filetype`設為`folder`時有效。
 

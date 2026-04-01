@@ -132,7 +132,7 @@ downloads:
 (both absolute and relative paths are acceptable)
 - filetype: The filetype of the downloaded galleries.
 Currently supports `folder` and `cbz`.
-- Server: The (self-hosted) server for viewing the downloaded galleries.
+- server: The (self-hosted) server for viewing the downloaded galleries.
 Currently supports [`LANrargi`][lanraragi] and [`Kavita`][kavita].
 Only affective when `filetype` is set to `cbz`.
 - set-tags: Whether to set the gallery tags
