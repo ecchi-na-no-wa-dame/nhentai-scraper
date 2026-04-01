@@ -44,10 +44,13 @@ def search_url(
 
     soup = BeautifulSoup(response.content, features="html.parser")
 
-    if soup.title is not None and type(soup.title.string) == str:
-        if soup.title.string.split(" ")[0] == "Login":
-            print("Please login to nhentai.net and update the cookies again.")
-            sys.exit()
+    if soup.title is not None:
+        if soup.title.string == 'nhentai':
+            raise SystemExit(
+                "Please redo the steps listed in "
+                "the 'Bypassing Cloudflare and Anubis Protections' section "
+                "in 'README.md' and try again."
+            )
 
     gallery_count = soup.find("span", {"class": "count"}).string
     gallery_count = gallery_count.replace("(", "").replace(")", "")
