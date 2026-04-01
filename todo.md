@@ -11,6 +11,7 @@
 - Add warning for empty download_list.txt
 - Add Docker container
 - Add doc for nhentai api
+- Use official [nhentai api](https://nhentai.net/api/v2/docs)
 
 - Check pyright errors
 - Add ability to toggle thumbnail and tags
